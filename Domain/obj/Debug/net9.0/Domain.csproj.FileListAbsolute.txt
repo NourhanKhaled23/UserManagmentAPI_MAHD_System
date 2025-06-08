@@ -1,0 +1,11 @@
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\bin\Debug\net9.0\Domain.deps.json
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\bin\Debug\net9.0\Domain.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\bin\Debug\net9.0\Domain.pdb
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\refint\Domain.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\Domain.pdb
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Domain\obj\Debug\net9.0\ref\Domain.dll

@@ -1,0 +1,667 @@
+2025-05-04 01:30:40.090 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:30:40.130 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:30:40.182 +03:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:30:40.251 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:30:40.262 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:30:40.267 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:30:40.353 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:30:40.360 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:30:40.370 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:30:40.565 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:30:40.664 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:30:40.668 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:30:40.673 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:30:40.684 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:30:40.688 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:30:40.691 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:30:40.696 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:30:40.699 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:30:40.702 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:30:40.712 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:30:40.726 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 01:30:40.800 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 01:30:40.803 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 01:30:40.804 +03:00 [INF] Hosting environment: Development
+2025-05-04 01:30:40.806 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 01:35:16.895 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:35:16.945 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:35:16.970 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:35:17.029 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:35:17.038 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:35:17.041 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:35:17.057 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:35:17.065 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:35:17.070 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:35:17.292 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:35:17.411 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:35:17.414 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:35:17.417 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:35:17.424 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:35:17.428 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:35:17.432 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:35:17.435 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:35:17.439 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:35:17.444 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:35:17.451 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:35:17.470 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 01:35:17.574 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 01:35:17.577 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 01:35:17.579 +03:00 [INF] Hosting environment: Development
+2025-05-04 01:35:17.580 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 01:39:34.430 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger - null null
+2025-05-04 01:39:34.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger - 301 0 null 161.3037ms
+2025-05-04 01:39:34.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.html - null null
+2025-05-04 01:39:34.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.html - 200 null text/html;charset=utf-8 95.1026ms
+2025-05-04 01:39:35.538 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui.css - null null
+2025-05-04 01:39:35.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui-bundle.js - null null
+2025-05-04 01:39:35.541 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.js - null null
+2025-05-04 01:39:35.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-04 01:39:35.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.js - 200 null application/javascript;charset=utf-8 10.2885ms
+2025-05-04 01:39:35.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/index.css - null null
+2025-05-04 01:39:35.570 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-05-04 01:39:35.573 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/index.css - 200 202 text/css 32.8581ms
+2025-05-04 01:39:35.576 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-04 01:39:35.577 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-04 01:39:35.582 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui.css - 200 154948 text/css 43.4548ms
+2025-05-04 01:39:35.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 42.2157ms
+2025-05-04 01:39:35.681 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-04 01:39:35.684 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 144.3809ms
+2025-05-04 01:39:35.994 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - null null
+2025-05-04 01:39:36.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5160/swagger/favicon-32x32.png - null null
+2025-05-04 01:39:36.038 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-04 01:39:36.041 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/favicon-32x32.png - 200 628 image/png 6.2755ms
+2025-05-04 01:39:36.142 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5160/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.1864ms
+2025-05-04 01:56:37.809 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:56:37.852 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:56:37.906 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:56:37.964 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:56:37.973 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:56:37.976 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:56:38.031 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:56:38.039 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:56:38.050 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:56:38.247 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:56:38.363 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:56:38.367 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 01:56:38.371 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 01:56:38.378 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 01:56:38.383 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 01:56:38.387 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 01:56:38.393 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 01:56:38.397 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 01:56:38.402 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 01:56:38.411 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 01:56:38.430 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 01:56:38.518 +03:00 [INF] Now listening on: http://localhost:5000
+2025-05-04 01:56:38.521 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 01:56:38.522 +03:00 [INF] Hosting environment: Development
+2025-05-04 01:56:38.524 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 02:02:35.068 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:02:35.107 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:02:35.156 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:02:35.213 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:02:35.222 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:02:35.226 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:02:35.261 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:02:35.269 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:02:35.280 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:02:35.485 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:02:35.593 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:02:35.597 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:02:35.603 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:02:35.611 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:02:35.615 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:02:35.620 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:02:35.627 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:02:35.631 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:02:35.634 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:02:35.644 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:02:35.664 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 02:02:35.761 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 02:02:35.764 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 02:02:35.765 +03:00 [INF] Hosting environment: Development
+2025-05-04 02:02:35.766 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 02:03:53.574 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:03:53.640 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:03:53.670 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:03:53.749 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:03:53.761 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:03:53.766 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:03:53.780 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:03:53.789 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:03:53.796 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:03:54.044 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:03:54.234 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:03:54.238 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:03:54.243 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:03:54.258 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:03:54.263 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:03:54.269 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:03:54.275 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:03:54.279 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:03:54.284 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:03:54.297 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:03:54.322 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 02:03:54.543 +03:00 [INF] Now listening on: https://localhost:7233
+2025-05-04 02:03:54.544 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 02:03:54.547 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 02:03:54.548 +03:00 [INF] Hosting environment: Development
+2025-05-04 02:03:54.549 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 02:04:16.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger - null null
+2025-05-04 02:04:16.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger - 301 0 null 56.795ms
+2025-05-04 02:04:16.271 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/index.html - null null
+2025-05-04 02:04:16.339 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/index.html - 200 null text/html;charset=utf-8 67.9949ms
+2025-05-04 02:04:16.423 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/index.css - null null
+2025-05-04 02:04:16.423 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/swagger-ui-bundle.js - null null
+2025-05-04 02:04:16.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/index.js - null null
+2025-05-04 02:04:16.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-04 02:04:16.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/index.js - 200 null application/javascript;charset=utf-8 12.1059ms
+2025-05-04 02:04:16.441 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-05-04 02:04:16.423 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/swagger-ui.css - null null
+2025-05-04 02:04:16.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/index.css - 200 202 text/css 24.0421ms
+2025-05-04 02:04:16.460 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-04 02:04:16.460 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-04 02:04:16.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/swagger-ui.css - 200 154948 text/css 42.6402ms
+2025-05-04 02:04:16.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 42.7804ms
+2025-05-04 02:04:16.494 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-04 02:04:16.497 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/swagger-ui-bundle.js - 200 1466324 text/javascript 73.8632ms
+2025-05-04 02:04:16.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/v1/swagger.json - null null
+2025-05-04 02:04:16.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/favicon-32x32.png - null null
+2025-05-04 02:04:16.817 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-04 02:04:16.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/favicon-32x32.png - 200 628 image/png 7.3366ms
+2025-05-04 02:04:16.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.5633ms
+2025-05-04 02:04:41.320 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7233/api/Auth/login - application/json 66
+2025-05-04 02:04:41.355 +03:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI)'
+2025-05-04 02:04:41.373 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDto) on controller UserManagementAPI.Controllers.AuthController (UserManagementAPI).
+2025-05-04 02:04:41.550 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-05-04 02:04:42.331 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-04 02:04:42.342 +03:00 [INF] Executed action UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI) in 962.9869ms
+2025-05-04 02:04:42.344 +03:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI)'
+2025-05-04 02:04:42.350 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7233/api/Auth/login - 200 null application/json; charset=utf-8 1029.9222ms
+2025-05-04 02:05:52.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/api/User/profile - null null
+2025-05-04 02:05:52.504 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: 'http://localhost:5160'. Did not match: validationParameters.ValidAudience: 'https://localhost:7233' or validationParameters.ValidAudiences: 'null'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-05-04 02:05:52.515 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: 'http://localhost:5160'. Did not match: validationParameters.ValidAudience: 'https://localhost:7233' or validationParameters.ValidAudiences: 'null'.
+2025-05-04 02:05:52.522 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-04 02:05:52.528 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-05-04 02:05:52.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/api/User/profile - 401 0 null 65.1817ms
+2025-05-04 02:10:41.213 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:10:41.252 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:10:41.310 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:10:41.377 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:10:41.385 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:10:41.389 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:10:41.420 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:10:41.427 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:10:41.432 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:10:41.628 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:10:41.736 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:10:41.739 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:10:41.743 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:10:41.748 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:10:41.752 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:10:41.755 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:10:41.761 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:10:41.764 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:10:41.767 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:10:41.775 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:10:41.794 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 02:10:41.936 +03:00 [INF] Now listening on: https://localhost:7233
+2025-05-04 02:10:41.937 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 02:10:41.939 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 02:10:41.941 +03:00 [INF] Hosting environment: Development
+2025-05-04 02:10:41.942 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 02:11:08.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/ - null null
+2025-05-04 02:11:09.000 +03:00 [WRN] No valid token provided or authentication failed.
+2025-05-04 02:11:09.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/ - 401 null null 86.1062ms
+2025-05-04 02:11:09.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/favicon.ico - null null
+2025-05-04 02:11:09.250 +03:00 [WRN] No valid token provided or authentication failed.
+2025-05-04 02:11:09.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/favicon.ico - 401 null null 9.3338ms
+2025-05-04 02:13:14.701 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:13:14.745 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:13:14.768 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:13:14.818 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:13:14.826 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:13:14.829 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:13:14.841 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:13:14.849 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:13:14.854 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:13:15.054 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:13:15.161 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:13:15.164 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-04 02:13:15.167 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-05-04 02:13:15.173 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-05-04 02:13:15.177 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-05-04 02:13:15.182 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-05-04 02:13:15.186 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-05-04 02:13:15.189 +03:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-04 02:13:15.191 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-05-04 02:13:15.198 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Email] = N'admin@example.com') THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-05-04 02:13:15.215 +03:00 [INF] User profile is available. Using 'C:\Users\nourh\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-04 02:13:15.365 +03:00 [INF] Now listening on: https://localhost:7233
+2025-05-04 02:13:15.366 +03:00 [INF] Now listening on: http://localhost:5160
+2025-05-04 02:13:15.369 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-04 02:13:15.371 +03:00 [INF] Hosting environment: Development
+2025-05-04 02:13:15.373 +03:00 [INF] Content root path: C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\UserManagementAPI
+2025-05-04 02:13:52.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/ - null null
+2025-05-04 02:13:52.146 +03:00 [WRN] No valid token provided or authentication failed.
+2025-05-04 02:13:52.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/ - 401 null null 79.3561ms
+2025-05-04 02:13:52.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/favicon.ico - null null
+2025-05-04 02:13:52.380 +03:00 [WRN] No valid token provided or authentication failed.
+2025-05-04 02:13:52.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/favicon.ico - 401 null null 7.9792ms
+2025-05-04 02:15:34.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/index.html - null null
+2025-05-04 02:15:34.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/index.html - 200 null text/html;charset=utf-8 124.8862ms
+2025-05-04 02:15:34.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/index.js - null null
+2025-05-04 02:15:34.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/index.js - 200 null application/javascript;charset=utf-8 6.7408ms
+2025-05-04 02:15:34.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/swagger/v1/swagger.json - null null
+2025-05-04 02:15:34.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 116.8529ms
+2025-05-04 02:15:47.578 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7233/api/Auth/login - application/json 66
+2025-05-04 02:15:47.592 +03:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI)'
+2025-05-04 02:15:47.618 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDto) on controller UserManagementAPI.Controllers.AuthController (UserManagementAPI).
+2025-05-04 02:15:47.898 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-05-04 02:15:48.215 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-04 02:15:48.225 +03:00 [INF] Executed action UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI) in 600.5252ms
+2025-05-04 02:15:48.227 +03:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.AuthController.Login (UserManagementAPI)'
+2025-05-04 02:15:48.233 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7233/api/Auth/login - 200 null application/json; charset=utf-8 655.1017ms
+2025-05-04 02:17:11.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7233/api/User/profile - null null
+2025-05-04 02:17:11.838 +03:00 [INF] Token validated successfully for request: /api/User/profile
+2025-05-04 02:17:11.839 +03:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UserController.GetProfile (UserManagementAPI)'
+2025-05-04 02:17:11.845 +03:00 [INF] Route matched with {action = "GetProfile", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile(System.Threading.CancellationToken) on controller UserManagementAPI.Controllers.UserController (UserManagementAPI).
+2025-05-04 02:17:11.857 +03:00 [INF] Retrieving profile for user 4
+2025-05-04 02:17:11.907 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PasswordHash], [u].[Role], [u].[UpdatedAt]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0
+2025-05-04 02:17:11.912 +03:00 [INF] Successfully retrieved profile for user 4
+2025-05-04 02:17:11.915 +03:00 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.UserProfileDto'.
+2025-05-04 02:17:11.923 +03:00 [INF] Executed action UserManagementAPI.Controllers.UserController.GetProfile (UserManagementAPI) in 75.433ms
+2025-05-04 02:17:11.926 +03:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UserController.GetProfile (UserManagementAPI)'
+2025-05-04 02:17:11.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7233/api/User/profile - 200 null application/json; charset=utf-8 146.9686ms

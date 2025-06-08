@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application",
+    "\\Infrastructure",
+    "\\UserManagementAPI",
+    "\\UserManagementAPI\\Controllers",
+    "\\UserManagementAPI\\Filters",
+    "\\UserManagementAPI\\Middlewares",
+    "\\UserManagementAPI\\Models",
+    "\\UserManagementAPI\\Properties",
+    "\\Utilities"
+  ],
+  "SelectedNode": "\\UserManagementAPI\\Properties\\launchSettings.json",
+  "PreviewInSolutionExplorer": false
+}

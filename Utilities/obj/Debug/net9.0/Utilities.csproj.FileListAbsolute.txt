@@ -1,0 +1,12 @@
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\bin\Debug\net9.0\Utilities.deps.json
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\bin\Debug\net9.0\Utilities.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\bin\Debug\net9.0\Utilities.pdb
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.csproj.AssemblyReference.cache
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfoInputs.cache
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfo.cs
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.csproj.CoreCompileInputs.cache
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\refint\Utilities.dll
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\Utilities.pdb
+C:\SeniorYear\.Net\C#_tasks\CS_Projects\UserManagementSystem\Utilities\obj\Debug\net9.0\ref\Utilities.dll

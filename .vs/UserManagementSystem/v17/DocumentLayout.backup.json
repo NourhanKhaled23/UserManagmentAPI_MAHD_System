@@ -3,54 +3,6 @@
   "WorkspaceRootPath": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Filters\\ValidationFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Filters\\ValidationFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\LoggingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\PasswordHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utilities\\Security\\PasswordHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,96 +11,200 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Utilities\\Security\\JwtHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Infrastructure.Tests||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Infrastructure.Tests||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\ResetPasswordValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Validators\\ResetPasswordValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\UserProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\API.Tests||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\API.Tests||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Domain.Tests||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Domain.Tests||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Application.Tests||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Application.Tests||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\DatabaseSchema.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docs\\DatabaseSchema.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docs\\Architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\API_Specifications.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docs\\API_Specifications.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\UserSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\RegisterValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Validators\\RegisterValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UpdateProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\UpdateProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\AdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Interfaces\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\UserProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\UserManagementAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\UserManagementAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UpdateProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\UpdateProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\SetUserRoleDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\SetUserRoleDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ResetPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\ResetPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\LoginResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ForgotPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\ForgotPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ChangePasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\DTOs\\ChangePasswordDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Common\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\RefreshToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\UserSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\UserNotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Exceptions\\UserNotFoundException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\DomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Exceptions\\DomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\ISettingsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\ISettingsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Common\\InfrastructureConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Common\\InfrastructureConstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\SettingsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\SettingsRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Services\\ExternalAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Services\\ExternalAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Middlewares\\LoggingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\OtpData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Controllers\\OtpData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\UserManagementAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\UserManagementAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Models\\ResponseModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Models\\ResponseModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserManagementAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docs\\Architecture.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,72 +214,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Program.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs",
-              "RelativeToolTip": "UserManagementAPI\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwIAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:03:08.597Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "UserManagementAPI\\appsettings.json",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json",
-              "RelativeToolTip": "UserManagementAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-17T15:01:07.498Z",
+              "Title": "ResetPasswordValidator.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\ResetPasswordValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\ResetPasswordValidator.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\ResetPasswordValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\ResetPasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:54:08.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "UserManagementAPI\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABEAAAAAAAAAA==",
+              "Title": "RegisterValidator.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\RegisterValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\RegisterValidator.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Validators\\RegisterValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\RegisterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:28:52.626Z",
+              "WhenOpened": "2025-06-11T19:54:07.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "UserManagementAPI\\appsettings.Development.json",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.Development.json",
-              "RelativeToolTip": "UserManagementAPI\\appsettings.Development.json",
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Security\\JwtHelper.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\JwtHelper.cs",
+              "RelativeToolTip": "Utilities\\Security\\JwtHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-08T19:28:27.747Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:10:07.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "UserManagementAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T22:43:13.782Z",
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\Security\\PasswordHelper.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\PasswordHelper.cs",
+              "RelativeToolTip": "Utilities\\Security\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:50:23.398Z",
               "EditorCaption": ""
             },
             {
@@ -233,281 +275,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "UserManagementAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EmailService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:14:57.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "UserManagementAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:14:52.131Z",
+              "WhenOpened": "2025-06-11T19:53:57.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "JwtTokenValidationMiddleware.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
-              "RelativeToolTip": "UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AdminService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AdminService.cs",
+              "RelativeToolTip": "Application\\Services\\AdminService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:07:09.408Z",
+              "WhenOpened": "2025-06-11T19:53:42.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:29:42.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
-              "RelativeToolTip": "UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:06:43.638Z",
+              "WhenOpened": "2025-06-11T19:53:38.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ValidationFilter.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Filters\\ValidationFilter.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Filters\\ValidationFilter.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Filters\\ValidationFilter.cs",
-              "RelativeToolTip": "UserManagementAPI\\Filters\\ValidationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:02:50.471Z",
+              "WhenOpened": "2025-06-11T19:53:37.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "RelativeToolTip": "UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T20:06:45.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PasswordHelper.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\PasswordHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\Security\\PasswordHelper.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\PasswordHelper.cs",
-              "RelativeToolTip": "Utilities\\Security\\PasswordHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:50:57.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "JwtHelper.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\JwtHelper.cs",
-              "RelativeDocumentMoniker": "Utilities\\Security\\JwtHelper.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Utilities\\Security\\JwtHelper.cs",
-              "RelativeToolTip": "Utilities\\Security\\JwtHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T23:47:52.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Application.Tests",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Application.Tests",
-              "RelativeDocumentMoniker": "Tests\\Application.Tests",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Application.Tests",
-              "RelativeToolTip": "Tests\\Application.Tests",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T20:14:56.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Domain.Tests",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Domain.Tests",
-              "RelativeDocumentMoniker": "Tests\\Domain.Tests",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Domain.Tests",
-              "RelativeToolTip": "Tests\\Domain.Tests",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T20:14:59.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Infrastructure.Tests",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Infrastructure.Tests",
-              "RelativeDocumentMoniker": "Tests\\Infrastructure.Tests",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Infrastructure.Tests",
-              "RelativeToolTip": "Tests\\Infrastructure.Tests",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T20:15:01.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Tests.csproj",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Tests.csproj",
-              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\Tests.csproj",
-              "RelativeToolTip": "Tests\\Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-03T20:15:04.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "API.Tests",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\API.Tests",
-              "RelativeDocumentMoniker": "Tests\\API.Tests",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Tests\\API.Tests",
-              "RelativeToolTip": "Tests\\API.Tests",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-03T20:15:07.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:51:57.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DatabaseSchema.md",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\DatabaseSchema.md",
-              "RelativeDocumentMoniker": "Docs\\DatabaseSchema.md",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\DatabaseSchema.md",
-              "RelativeToolTip": "Docs\\DatabaseSchema.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-17T17:53:02.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Architecture.md",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md",
-              "RelativeDocumentMoniker": "Docs\\Architecture.md",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md",
-              "RelativeToolTip": "Docs\\Architecture.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-17T17:51:37.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "API_Specifications.md",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\API_Specifications.md",
-              "RelativeDocumentMoniker": "Docs\\API_Specifications.md",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\API_Specifications.md",
-              "RelativeToolTip": "Docs\\API_Specifications.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-17T17:40:05.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:15:18.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Domain\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "Domain\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:48:07.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserSettings.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\UserSettings.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs",
-              "RelativeToolTip": "Domain\\Entities\\UserSettings.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:48:00.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T00:58:15.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAdminService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IAdminService.cs",
@@ -515,72 +334,51 @@
               "RelativeToolTip": "Application\\Interfaces\\IAdminService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:51:55.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:51:58.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:00:59.383Z",
+              "WhenOpened": "2025-06-11T19:53:35.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:47:53.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:38:39.389Z"
+              "WhenOpened": "2025-03-17T14:38:39.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:38:56.026Z"
+              "WhenOpened": "2025-06-11T19:53:30.16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:07:11.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UpdateProfileDto.cs",
               "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UpdateProfileDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UpdateProfileDto.cs",
@@ -588,11 +386,51 @@
               "RelativeToolTip": "Application\\DTOs\\UpdateProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:40:07.166Z"
+              "WhenOpened": "2025-06-11T19:53:29.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SetUserRoleDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\SetUserRoleDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\SetUserRoleDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\SetUserRoleDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\SetUserRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:53:26.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:51:09.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:53:25.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserProfileDto.cs",
               "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserProfileDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UserProfileDto.cs",
@@ -605,19 +443,384 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\UserDto.cs",
+              "DocumentIndex": 17,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:40:25.803Z"
+              "WhenOpened": "2025-06-11T19:53:24.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:53:20.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:53:19.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserSettings.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UserSettings.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\UserSettings.cs",
+              "RelativeToolTip": "Domain\\Entities\\UserSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:52:46.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:53:29.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:05:35.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ISettingsRepository.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ISettingsRepository.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\ISettingsRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ISettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:52:33.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:09:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:02:16.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:48:03.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:48:07.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InfrastructureConstants.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Common\\InfrastructureConstants.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Common\\InfrastructureConstants.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Common\\InfrastructureConstants.cs",
+              "RelativeToolTip": "Infrastructure\\Common\\InfrastructureConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:52:14.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Domain\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "Domain\\Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:09:32.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SettingsRepository.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\SettingsRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SettingsRepository.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\SettingsRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\SettingsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:48:25.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:03:31.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:02:58.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExternalAuthService.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Services\\ExternalAuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\ExternalAuthService.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Services\\ExternalAuthService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\ExternalAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:38:55.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:04:16.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:04:25.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Program.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Program.cs",
+              "RelativeToolTip": "UserManagementAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:11:32.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "UserManagementAPI\\Middlewares\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:29:53.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "UserManagementAPI\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:30:44.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JwtTokenValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
+              "RelativeToolTip": "UserManagementAPI\\Middlewares\\JwtTokenValidationMiddleware.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHgAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T15:06:07.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
+              "RelativeToolTip": "UserManagementAPI\\Middlewares\\LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:49:16.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "UserManagementAPI\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:08:23.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserManagementAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T17:06:45.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserManagementAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:08:26.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OtpData.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\OtpData.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Controllers\\OtpData.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Controllers\\OtpData.cs",
+              "RelativeToolTip": "UserManagementAPI\\Controllers\\OtpData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T18:34:00.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\appsettings.json",
+              "RelativeToolTip": "UserManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T13:34:56.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "UserManagementAPI.csproj",
               "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\UserManagementAPI.csproj",
               "RelativeDocumentMoniker": "UserManagementAPI\\UserManagementAPI.csproj",
@@ -625,7 +828,59 @@
               "RelativeToolTip": "UserManagementAPI\\UserManagementAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-16T23:57:45.77Z"
+              "WhenOpened": "2025-06-11T13:39:28.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T18:01:29.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ResponseModels.cs",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Models\\ResponseModels.cs",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Models\\ResponseModels.cs",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Models\\ResponseModels.cs",
+              "RelativeToolTip": "UserManagementAPI\\Models\\ResponseModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:04:03.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "UserManagementAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\UserManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "UserManagementAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T13:51:09.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Architecture.md",
+              "DocumentMoniker": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md",
+              "RelativeDocumentMoniker": "Docs\\Architecture.md",
+              "ToolTip": "C:\\SeniorYear\\.Net\\C#_tasks\\CS_Projects\\UserManagementSystem\\Docs\\Architecture.md",
+              "RelativeToolTip": "Docs\\Architecture.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-17T17:51:37.655Z"
             }
           ]
         }

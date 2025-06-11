@@ -56,5 +56,6 @@ namespace Application.Interfaces
         /// <param name="cancellationToken">Token to cancel the operation.</param>
         /// <returns>True if the role update succeeded; otherwise, false.</returns>
         Task<bool> SetUserRoleAsync(int userId, string role, CancellationToken cancellationToken = default);
+        Task StoreOtpAsync(int userId, string otp);
     }
 }

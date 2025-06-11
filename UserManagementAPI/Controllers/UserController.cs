@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using System.Threading;
@@ -15,30 +14,25 @@ namespace UserManagementAPI.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IEmailService _emailService;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, IEmailService emailService)
         {
-            _userService = userService;
+            _userService = userService ?? throw new ArgumentNullException(nameof(userService));
+            _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
         }
 
-        /// <summary>
-        /// Helper method to safely extract the user ID from the claims.
-        /// </summary>
-        /// <param name="userId">Parsed user ID if available.</param>
-        /// <returns>True if a valid user ID was found; otherwise, false.</returns>
+     
         private bool TryGetUserId(out int userId)
         {
             userId = 0;
-            // Use FindFirstValue to get the user ID from claims.
             string? userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            // Check if it's not null or empty and try parsing it.
             return !string.IsNullOrEmpty(userIdStr) && int.TryParse(userIdStr, out userId);
         }
 
         [HttpGet("profile")]
         public async Task<IActionResult> GetProfile(CancellationToken cancellationToken)
         {
-            // Validate and extract the user ID safely.
             if (!TryGetUserId(out int userId))
             {
                 return Unauthorized("User ID is missing or invalid.");
@@ -88,6 +82,36 @@ namespace UserManagementAPI.Controllers
             if (!result)
                 return BadRequest("Failed to delete account.");
             return Ok(new { message = "Account deleted successfully." });
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword()
+        {
+            if (!TryGetUserId(out int userId))
+            {
+                return Unauthorized("User ID is missing or invalid.");
+            }
+
+            var userProfile = await _userService.GetUserProfileAsync(userId, CancellationToken.None);
+            if (userProfile == null || string.IsNullOrEmpty(userProfile.Email))
+            {
+                return BadRequest("User email not found.");
+            }
+
+            string otp = GenerateOtp();
+            await _userService.StoreOtpAsync(userId, otp);
+
+            string subject = "Password Reset OTP";
+            string body = $"Your OTP for password reset is: <strong>{otp}</strong>. It is valid for 10 minutes.";
+            await _emailService.SendEmailAsync(userProfile.Email, subject, body);
+
+            return Ok(new { message = "OTP sent to your email. Check your inbox." });
+        }
+
+        private string GenerateOtp()
+        {
+            Random random = new Random();
+            return random.Next(100000, 999999).ToString(); 
         }
     }
 }

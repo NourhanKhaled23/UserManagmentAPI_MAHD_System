@@ -1,16 +1,4 @@
-﻿/*namespace Domain.Entities
-{
-    public class UserSettings
-    {
-        public int Id { get; set; }
-        public int UserId { get; set; }
-        public bool ReceiveNotifications { get; set; } = true;
-        public string PrivacyLevel { get; set; } = "Public";
-    }
-}
-
-*/
-
+﻿
 
 using Domain.Common;
 using System.ComponentModel.DataAnnotations.Schema;

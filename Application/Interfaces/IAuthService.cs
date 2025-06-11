@@ -4,12 +4,10 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-   
     public interface IAuthService
     {
         Task<string> RegisterAsync(RegisterDto dto);
-        Task<string> LoginAsync(LoginDto loginDto);
-        
+        Task<LoginResponseDto> LoginAsync(LoginDto loginDto);
+        Task<LoginResponseDto> RefreshTokenAsync(string refreshToken);
     }
 }
-

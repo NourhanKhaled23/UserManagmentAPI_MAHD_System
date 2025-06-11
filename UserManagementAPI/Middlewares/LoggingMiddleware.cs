@@ -17,7 +17,7 @@ namespace UserManagementAPI.Middlewares
             await _next(context);
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
-            // You can log the elapsed time here. For simplicity, we're writing to console.
+            
             System.Console.WriteLine($"Request took: {elapsedMs} ms");
         }
     }

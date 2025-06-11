@@ -3,7 +3,7 @@ using System;
 
 namespace Domain.Entities
 {
-    public class User : BaseEntity  // BaseEntity could include CreatedAt, UpdatedAt, etc.
+    public class User : BaseEntity  
     {
         public int Id { get; set; }
         public string FirstName { get; set; } = string.Empty;
@@ -12,8 +12,8 @@ namespace Domain.Entities
         public string PasswordHash { get; set; } = string.Empty;
         public string Role { get; set; } = "Student";  // Default role
          // Navigation Property for One-to-One Relationship with UserSettings
-        public UserSettings? UserSettings { get; set; }  
-
+        public UserSettings? UserSettings { get; set; }
+        public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
     }
 }
 

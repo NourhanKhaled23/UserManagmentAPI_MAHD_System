@@ -2,8 +2,13 @@
 using Application.Interfaces;
 using Domain.Entities;
 using Domain.Interfaces;
-using Utilities.Security; // for PasswordHelper 
+using Utilities.Security;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Caching.Memory;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace Application.Services
 {
@@ -11,13 +16,24 @@ namespace Application.Services
     {
         private readonly IUserRepository _userRepository;
         private readonly ILogger<UserService> _logger;
+        private readonly IMemoryCache _cache;
 
-        public UserService(IUserRepository userRepository, ILogger<UserService> logger)
+        public UserService(IUserRepository userRepository, ILogger<UserService> logger, IMemoryCache memoryCache)
         {
-            _userRepository = userRepository;
-            _logger = logger;
+            _userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _cache = memoryCache ?? throw new ArgumentNullException(nameof(memoryCache));
         }
 
+        public async Task StoreOtpAsync(int userId, string otp)
+        {
+            var cacheEntryOptions = new MemoryCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
+            };
+            _cache.Set($"Otp_{userId}", otp, cacheEntryOptions);
+            await Task.CompletedTask;
+        }
         public async Task<UserProfileDto> GetUserProfileAsync(int userId, CancellationToken cancellationToken = default)
         {
             _logger.LogInformation("Retrieving profile for user {UserId}", userId);
@@ -78,9 +94,7 @@ namespace Application.Services
         public async Task<IEnumerable<UserDto>> GetAllUsersAsync(CancellationToken cancellationToken = default)
         {
             var users = await _userRepository.GetAllUsersAsync(cancellationToken);
-            //  mapping using the positional constructor for the record:
             return users.Select(u => new UserDto(u.Id, u.Email, u.Role));
-
         }
 
         public async Task<bool> SetUserRoleAsync(int userId, string role, CancellationToken cancellationToken = default)

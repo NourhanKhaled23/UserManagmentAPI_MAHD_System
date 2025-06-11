@@ -1,4 +1,6 @@
-﻿using Domain.Entities;
+﻿
+
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data
@@ -10,23 +12,20 @@ namespace Infrastructure.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<UserSettings> UserSettings { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
-                .IsUnique();  // Ensure email uniqueness
+                .IsUnique();
+
+            modelBuilder.Entity<RefreshToken>()
+                .HasOne(rt => rt.User)
+                .WithMany(u => u.RefreshTokens)
+                .HasForeignKey(rt => rt.UserId);
 
             base.OnModelCreating(modelBuilder);
         }
     }
 }
-
-
-
-
-
-
-
-
-

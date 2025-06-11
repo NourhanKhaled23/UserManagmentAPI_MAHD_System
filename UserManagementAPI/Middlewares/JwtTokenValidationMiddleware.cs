@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿/*using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
@@ -84,6 +84,63 @@ namespace UserManagementAPI.Middlewares
     }
 
     // Extension method to register the middleware
+    public static class JwtTokenValidationMiddlewareExtensions
+    {
+        public static IApplicationBuilder UseJwtTokenValidation(this IApplicationBuilder builder)
+        {
+            return builder.UseMiddleware<JwtTokenValidationMiddleware>();
+        }
+    }
+}*/
+
+
+
+
+
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
+
+namespace UserManagementAPI.Middlewares
+{
+    public class JwtTokenValidationMiddleware
+    {
+        private readonly RequestDelegate _next;
+        private readonly ILogger<JwtTokenValidationMiddleware> _logger;
+
+        public JwtTokenValidationMiddleware(RequestDelegate next, ILogger<JwtTokenValidationMiddleware> logger)
+        {
+            _next = next;
+            _logger = logger;
+        }
+
+        public async Task InvokeAsync(HttpContext context)
+        {
+            // /api/Auth 
+            if (context.Request.Path.StartsWithSegments("/api/Auth") || context.Request.Path.StartsWithSegments("/UMS/api/Auth"))
+            {
+                _logger.LogInformation("Skipping JWT validation for Auth endpoint: {Path}", context.Request.Path);
+                await _next(context);
+                return;
+            }
+
+            //  (JWT)
+            if (context.User?.Identity == null || !context.User.Identity.IsAuthenticated)
+            {
+                _logger.LogWarning("Unauthorized request - no valid JWT token provided for path: {Path}", context.Request.Path);
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                await context.Response.WriteAsync("{\"message\": \"No valid token provided\"}");
+                return;
+            }
+
+            _logger.LogInformation("Authorized request for path: {Path}", context.Request.Path);
+
+            
+            await _next(context);
+        }
+    }
+
     public static class JwtTokenValidationMiddlewareExtensions
     {
         public static IApplicationBuilder UseJwtTokenValidation(this IApplicationBuilder builder)

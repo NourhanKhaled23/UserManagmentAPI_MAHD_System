@@ -519,8 +519,6 @@ curl -X POST "http://localhost:5003/UMS/api/Auth/login" \
 
 ---
 
-Would you like me to generate a **Swagger-compatible OpenAPI spec YAML/JSON** for this too? 📄✨
-
 ⚙️ Setup Instructions
 bash
 نسخ
